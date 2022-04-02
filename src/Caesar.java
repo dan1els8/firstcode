@@ -9,10 +9,10 @@ public class Caesar {
         System.out.println("Введите сообщение которые вы хотите зашифровать:");
         Scanner sr = new Scanner(System.in);
         String message = sr.nextLine();
-        String cyphertext = ;
+        String cyphertext = "";
         for (int i = 0; i < message.length(); i++) {
             String c = Character.toString(message.charAt(i));
-            if (c.equals( )) {
+            if (c.equals(" ")) {
                 cyphertext +=c;
                 continue;
             }
